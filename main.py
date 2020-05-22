@@ -30,12 +30,31 @@ print(int(GPAsum))
 gpaNumber = int(GPAsum) / 5
 print(int(gpaNumber))
 
-# Pretty happy with this now- I may come back and add some if statements to convert into the 4.0 scale. Not sure yet.
+# Going to create a long if statement with embedded else if statements.
+# This is going to be used to output what the GPA would roughly be on the 4.0 scale.
+# This is unweighted so AP and Honors classes will not count.
+if gpaNumber >= 93:
+    print("4.0")
+elif gpaNumber >= 90:
+    print("3.7")
+elif gpaNumber >= 87:
+    print("3.3")
+elif gpaNumber >= 83:
+    print("3.0")
+elif gpaNumber >= 77:
+    print("2.3")
+elif gpaNumber >= 73:
+    print("2.0")
+elif gpaNumber >= 70:
+    print("1.7")
+elif gpaNumber >= 67:
+    print("1.3")
+elif gpaNumber >= 65:
+    print("1.0")
+elif gpaNumber < 65:
+    print("0... you have failed badly.")
 
-
-
-
-
+# That was pretty easy. Bot Gavin Belson will be next.
 
 
 
