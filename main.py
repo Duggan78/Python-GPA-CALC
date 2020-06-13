@@ -1,7 +1,7 @@
 # Welcome To My GPA Calculator!!!!
 # I made one of these in Java and found it helped my understanding so I am going to do it in Python
 # Things to know- This does not calculate weighted averages, only unweighted.
-# I am going to default to 5 classes for this calculator.
+# I am going to default to 5 school classes for this calculator.
 
 # declaring the variables first is probably not needed but it helps for organization.
 GPA1 =()
