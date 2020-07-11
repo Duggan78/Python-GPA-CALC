@@ -4,30 +4,29 @@
 # I am going to default to 5 school classes for this calculator.
 
 # declaring the variables first is probably not needed but it helps for organization.
-GPA1 =()
-GPA2 =()
-GPA3 =()
-GPA4 =()
-GPA5 =()
-# yes I know, Capitalizing the first word in the variable name is not how to properly name a variable
+gpa1 =()
+gpa2 =()
+gpa3 =()
+gpa4 =()
+gpa5 =()
 # Just doing it for looks right now
 
 
 # Going to set the value of each variable using the input function
 # Not sure if "function" is the correct name for this but.. oh well!
 
-GPA1 = input(print("enter your grade *in percent* that you have in your first class: "))
-GPA2 = input(print("enter your grade *in percent* that you have in your second class: "))
-GPA3 = input(print("enter your grade *in percent* that you have in your third class:"))
-GPA4 = input(print("enter your grade *in percent* that you have in your fourth class:"))
-GPA5 = input(print("enter your grade *in percent* that you have in your fifth class:"))
+gpa1 = input(print("enter your grade *in percent* that you have in your first class: "))
+gpa2 = input(print("enter your grade *in percent* that you have in your second class: "))
+gpa3 = input(print("enter your grade *in percent* that you have in your third class:"))
+gpa4 = input(print("enter your grade *in percent* that you have in your fourth class:"))
+gpa5 = input(print("enter your grade *in percent* that you have in your fifth class:"))
 
 # adding up the total of each grade before
-GPAsum = int(GPA1) + int(GPA2) + int(GPA3) + int(GPA4) + int(GPA5)
-print(int(GPAsum))
+gpasum = int(gpa1) + int(gpa2) + int(gpa3) + int(gpa4) + int(gpa5)
+print(int(gpasum))
 
 # here is the correct unweighted GPA Number
-gpaNumber = int(GPAsum) / 5
+gpaNumber = int(gpasum) / 5
 print(int(gpaNumber))
 
 # Going to create a long if statement with embedded else if statements.
